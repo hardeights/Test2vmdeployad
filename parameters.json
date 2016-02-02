@@ -1,0 +1,87 @@
+﻿{
+  "$schema": "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentParameters.json",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "newStorageAccountName": {
+      "value": ""
+    },
+    "storageAccountType": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "virtualNetworkName": {
+      "value": ""
+    },
+    "virtualNetworkAddressRange": {
+      "value": ""
+    },
+    "adSubnetName": {
+      "value": ""
+    },
+    "adSubnet": {
+      "value": ""
+    },
+    "adPDCNicName": {
+      "value": ""
+    },
+    "adPDCNicIPAddress": {
+      "value": ""
+    },
+    "adBDCNicName": {
+      "value": ""
+    },
+    "adBDCNicIPAddress": {
+      "value": ""
+    },
+    "publicIPAddressName": {
+      "value": ""
+    },
+    "publicIPAddressType": {
+      "value": ""
+    },
+    "adPDCVMName": {
+      "value": ""
+    },
+    "adBDCVMName": {
+      "value": ""
+    },
+    "adminUsername": {
+      "value": ""
+    },
+    "adminPassword": {
+      "value": ""
+    },
+    "adVMSize": {
+      "value": ""
+    },
+    "imagePublisher": {
+      "value": ""
+    },
+    "imageOffer": {
+      "value": ""
+    },
+    "imageSKU": {
+      "value": ""
+    },
+    "adAvailabilitySetName": {
+      "value": ""
+    },
+    "domainName": {
+      "value": ""
+    },
+    "dnsPrefix": {
+      "value": ""
+    },
+    "pdcRDPPort": {
+      "value": ""
+    },
+    "bdcRDPPort": {
+      "value": ""
+    },
+    "assetLocation": {
+      "value": ""
+    }
+  }
+}
